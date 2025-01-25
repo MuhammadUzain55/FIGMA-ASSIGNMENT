@@ -1,0 +1,143 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.main-input {
+    padding-top: 50px;
+}
+
+.name-input input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #E7E7E7;
+}
+
+.email-input {
+    padding-top: 20px;
+}
+
+.email-input input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #E7E7E7;
+}
+
+.pass-input {
+    padding-top: 20px;
+}
+
+.pass-input input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #E7E7E7;
+}
+
+.terms {
+    padding-top: 20px;
+}
+
+.terms input {
+    border: 2px solid black;
+}
+
+.btn {
+    padding-top: 50px;
+}
+
+.btn button {
+    width: 450px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #3A5B22;
+    color: #fff;
+    font-weight: bold;
+}
+
+.opt {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.opt::before, .opt::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+    margin: 0 10px;
+}
+
+.opt span {
+    font-size: 16px;
+    color: #555;
+}
+
+/****************************** Google and Apple button *************************/
+
+.logo-btn {
+    display: flex;
+    padding-top: 50px;
+    column-gap: 50px;
+}
+
+.logo-btn .google-btn {
+    width: 200px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 2px solid #E7E7E7;
+}
+
+.logo-btn .google-btn img {
+    width: 20px;
+}
+
+.logo-btn span {
+    margin: 10px;
+    padding-top: 2px;
+}
+
+.logo-btn .apple-btn {
+    width: 200px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 2px solid #E7E7E7;
+}
+
+.logo-btn .apple-btn img {
+    width: 20px;
+}
+
+/*********************** Sign in Option ***************************/
+
+.signin-option {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.signin-option a {
+    text-decoration: none;
+}
+
+/************************** Side image ***************************/
+
+.side-img img {
+    height: 800px;
+    padding-left: 50px;
+}
