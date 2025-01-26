@@ -138,6 +138,8 @@
 /************************** Side image ***************************/
 
 .side-img img {
-    height: 800px;
-    padding-left: 50px;
+    height: 900px;
+    width: 700px;
+    padding-left: 80px;
+    margin-bottom: 100px;
 }
